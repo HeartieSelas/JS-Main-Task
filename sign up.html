@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -42,6 +42,123 @@
             </form>
         </div>
     </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+
+    <section>
+
+    <div class="container">
+        <div class="form-box">
+            <form action="" name="Formfill" onsubmit="return validation()">
+                <h2>Sign Up</h2>
+                <p id="result"></p>
+                <div class="input-box">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" name="Username" placeholder="Username">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" name="Email" placeholder="EMail">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="CPassword" placeholder="Confirm Password">
+                </div>
+                <div class="button">
+                    <a href="index.html"><input type="submit" class="btn" value="Submit"></a>
+                </div>
+
+                <!-- <div class="button">
+                    <a href="index.html"><button type="button" class="btn" onclick="todologin()">Login</button></a> -->
+
+                <div class="group">
+                    <span><a href="#">Forget-Password?</a></span>
+                    <span><a href="login.html">Login</a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section>
+        
+        <div class="login-box">
+            <form action="" id="form" class="form">
+                <h2>Sign Up Form</h2>
+                <div class="input-box">
+                    <span class="icon" id="name-error"><ion-icon name="person"></ion-icon></span>
+                    <input type="name" id="name" placeholder="Enter Your Name" onkeyup="validationName()">
+                    <label for="" id="name-label">Name</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon" id="email-error"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" id="email" placeholder="Enter Your Mail Id" onkeyup="validateEmail()">
+                    <label for="email" id="email-label">EMail</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon" id="mobile-error"><ion-icon name="call"></ion-icon></span>
+                    <input type="mobile no" id="mobile" placeholder="Enter Mobile No" onkeyup="validateMobile()">
+                    <label for="mobile" id="mobile-label">Mobile No</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon" id="password-error"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" id="password" placeholder="Enter Password" onkeyup="validatePassword()">
+                    <label for="password" id="password-label">Password</label>
+                </div>
+
+                <div class="register-link"><button type="submit">Submit</button><span id="submit-error"></span></div>
+
+            </form>
+        </div>
+    </section> -->
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
