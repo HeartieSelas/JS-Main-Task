@@ -176,7 +176,7 @@ showTask();
 
 ///
 
-function validation(){
+function login(){
 
 if(document.Formfill.Email.value==""){
     document.getElementById("result").innerHTML="Enter Your Email*";
