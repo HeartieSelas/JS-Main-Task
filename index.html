@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -58,4 +58,179 @@
 
     <script src="main.js"></script>
 </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Login Form</title>
+</head>
+<body>
+
+    <section>
+
+     <div class="container">
+        <div class="form-box">
+            <form action="To Do List.html" id="form" class="login-form" name="Formfill" onsubmit="return validation()">
+                <h2>Login</h2>
+                <p id="result"></p>
+                <!-- <div class="input-box">
+                    <i class='bx bxs-user'></i>
+                    <input type="text" name="Username" placeholder="Username">
+                </div> -->
+                <div class="input-box" id="email-error">
+                    <i class='bx bxs-envelope'></i>
+                    <input type="email" name="Email" placeholder="EMail">
+                </div>
+                <div class="input-box" id="password-error">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <!-- <div class="input-box">
+                    <i class='bx bxs-lock-alt' ></i>
+                    <input type="password" name="CPassword" placeholder="Confirm Password">
+                </div> -->
+
+                <!-- <div class="remember-forgot">
+                    <label for=""><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                </div> -->
+
+                <div class="remember-forgot">
+                    <span><a href="#"><input type="checkbox">Remember Me</a></span>
+                    <span><a href="#">Forget-Password?</a></span>
+                    <!-- <span><a href="login.html">Login</a></span> -->
+                </div>
+
+                <!-- <div class="button">
+                    <input type="submit" class="btn" value="Submit">
+                </div> -->
+
+                <!-- <input type="submit" name="" value="Login"> -->
+<!-- 
+                <div class="button" id="">
+                    <a href="To Do List.html"><button type="button" class="btn" onclick="todologin()">Login</button></a>
+                </div> -->
+
+                <button type="submit">Login</button>
+
+                <!-- <button id="btn" onclick="alert('Button Click!')"></button> -->
+
+                <!-- <div class="button">
+                    <a href="index.html"><input type="submit" class="btn" value="Submit"></a>
+                </div> -->
+
+
+                <!-- <div class="button">
+                    <a href="To Do List.html"><input type="submit" class="btn" value="Login"></a>
+                </div>
+
+                <div class="popup" id="popup">
+                    <a href="To Do List.html"><button>Login</button></a>
+                </div>
+
+                <div class="button">
+                    <input type="submit" class="btn" onclick="validation()" value="Login"> 
+                </div> -->
+
+                
+                <!-- <div class="group">
+                    <span><a href="#">Forget-Password</a></span>
+                    <span><a href="#">Login</a></span>
+                </div> -->
+
+                <div class="register-link">
+                    <p>Don't have an account? <a href="sign up.html" target="_blank">Sign Up</a></p>
+                </div>
+            </form>
+        </div>
+        <!-- <div class="button">
+            <a href="To Do List.html"><input type="submit" class="btn" onclick="closeSlide()" value="Login"></a>
+        </div>
+
+        <div class="popup" id="popup">
+            <a href="To Do List.html"><button onclick="CloseSlide()">Login</button></a>
+        </div> -->
+        
+    </div>
+
+    
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section>
+
+        <div class="login-box">
+            <form action="" id="form">
+                <h2>Login Form</h2>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" placeholder="Enter Your Mail id" id="email" onkeyup="validateEmail()">
+                    <span id="email-error"></span>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" placeholder="Enter Your Password" id="password" onkeyup="validatePassword()">
+                    <span id="password-error"></span>
+                    <label for="password">Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label for=""><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot Password?</a>
+                </div> -->
+
+                    <!-- <div class="register-link">
+                        <a href="To Do List.html" target="_blank"><button type="button" onclick="location.href='To Do List.html'">Login</button></a>
+                        <span id="submit-error"></span>
+                    </div> -->
+                
+                    <!-- <div class="register-link">
+                <a href="To Do List.html"><button type="button" onclick="todologin()">Login</button></a>
+                    
+                <div class="register-link">
+                    <p>Don't have an account? <a href="sign up.html" target="_blank">Sign Up</a></p>
+                </div>
+
+
+            </form>
+        </div>
+
+    </section> -->
+
+    
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="main.js"></script>
+</body>
 </html>
+
