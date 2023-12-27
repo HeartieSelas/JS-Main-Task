@@ -259,6 +259,10 @@ else if(document.Formfill.Password.value==""){
     document.getElementById("result").innerHTML="Enter Your Password*";
     return false;
 }
+else if(document.Formfill.Password.value.length<6){
+        document.getElementById("result").innerHTML="Password must be 6-Digits*";
+        return false;
+}
 
 }
 
